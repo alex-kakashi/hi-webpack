@@ -75,7 +75,7 @@ class Home extends React.Component {
           {this._renderCard([1, 2, 3])}
         </div>
 
-        <Button color="danger" onClick={this.toggle}>{this.props.buttonLabel}</Button>
+        <Button color="danger" onClick={this.toggle}>Modal</Button>
         <Modal isOpen={this.state.modal} toggle={this.toggle} className={this.props.className}>
           <ModalHeader toggle={this.toggle}>Modal title</ModalHeader>
           <ModalBody>
