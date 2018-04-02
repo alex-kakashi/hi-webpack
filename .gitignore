@@ -1,0 +1,12 @@
+/node_modules
+package-lock.json
+
+bundle.js
+npm-debug.log
+
+# IntelliJ
+*.iml
+/.idea
+
+# Yarn
+yarn.lock
